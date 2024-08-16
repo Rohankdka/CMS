@@ -1,0 +1,27 @@
+.default-theme {
+    --primary-color: #3490dc;
+    --secondary-color: #ffed4a;
+    --background-color: #f8fafc;
+    --text-color: #4a4a4a;
+}
+
+.dark-theme {
+    --primary-color: #2d3748;
+    --secondary-color: #718096;
+    --background-color: #1a202c;
+    --text-color: #edf2f7;
+}
+
+/* Apply theme variables */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header, footer {
+    background-color: var(--primary-color);
+}
+
+button {
+    background-color: var(--secondary-color);
+}
